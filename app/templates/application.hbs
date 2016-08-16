@@ -30,11 +30,16 @@
       <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ABOUT <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="#">Action</a></li>
-          <li><a href="#">Another action</a></li>
-          <li><a href="#">Something else here</a></li>
+          <li>{{#link-to 'about'}}ABOUT US{{/link-to}}</li>
+          <li><a href="#">ADVERTISE WITH US</a></li>
+          <li><a href="#">APPS</a></li>
+          <li><a href="#">LABS</a></li>
+          <li><a href="#">TERMS</a></li>
+          <li><a href="#">PRIVACY</a></li>
+          <li><a href="#">DMCA</a></li>
+          <li><a href="#">CONTACT</a></li>
           <li role="separator" class="divider"></li>
-          <li><a href="#">Separated link</a></li>
+          <li><a href="#">2016 BUSTLE.COM</a></li>
         </ul>
       </li>
       <li><a href="#">Social Media</a></li>
@@ -44,8 +49,8 @@
 </nav>
 
 <div class="container">
-    {{outlet}}
-  <hr>
-  <footer>
-  </footer>
+  <br>
+    <br>
+      <br>
+  {{outlet}}
 </div>
