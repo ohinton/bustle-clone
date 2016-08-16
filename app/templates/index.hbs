@@ -1,13 +1,7 @@
 <br>
 <br>
 <ul>
-  {{#each model as |news|}}
-     <li>
-      {{news.type}}
-      <br>
-      <img src="{{news.image}}" alt="news photo">
-       <br>
-      <h2>{{news.headline}}</h2>
-     </li>
+  {{#each model as |new|}}
+    {{new-tile new=new}}
   {{/each}}
 </ul>
